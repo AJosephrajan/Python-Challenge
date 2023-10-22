@@ -57,8 +57,6 @@ with open(csvpath, encoding='UTF-8') as csvfile:
     print("Total Months: ", totalmonths)
     print("Total Value: " , totalamount)
     print("The Average Change: ",average)
-    # print("Greatest Increase in Profits", greatestincrease)
-    # print("Greatest Decrease in Profits", greatestdecrease)
     print(f'Greatest Increase in Profits: {increasedate}  (${greatestincrease}))')
     print(f'Greatest decrease in Profits: {decreasedate}  (${greatestdecrease}))')
     # Export the analysis into a text file 
